@@ -59,3 +59,149 @@ textarea:focus {
     font-size: 16px !important;
   }
 }
+header {
+  background-color: #232536 !important;
+}
+
+.container-fluid::after,
+.container::after,
+aside::after,
+footer::after,
+header::after,
+section::after,
+.container-fluid::after,
+.container::after,
+aside::after,
+footer::after,
+header::after,
+section::after {
+  display: none;
+  clear: both;
+  content: "";
+}
+
+.dropdown-toggle::before {
+  display: none;
+}
+
+nav {
+  padding-bottom: 150px;
+}
+
+.navbar {
+  padding: 0 0 22px 0;
+}
+
+.navbar-shrink {
+  z-index: 99;
+}
+.navbar-shrink .navbar {
+  padding: 0 0 15px 0;
+  transition: 0.5s;
+}
+.navbar-shrink .bg-body-tertiary {
+  box-shadow: 0 3px 3px 0 #9c9ff3;
+}
+
+.bg-body-tertiary {
+  background-color: #232536 !important;
+}
+
+.custom-droplink {
+  transition: 0.3s;
+}
+.custom-droplink:hover, .custom-droplink:focus {
+  color: #232536;
+}
+
+.navbar-brand img {
+  margin-top: 25px;
+}
+
+.custom-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  translate: 0.3s;
+}
+.custom-item .nav-hover__topline {
+  width: 55px;
+  opacity: 0;
+  border-top: 3px solid #ffa155;
+}
+.custom-item:hover .nav-hover__topline {
+  opacity: 1;
+}
+.custom-item:hover .custom-navlink {
+  color: #ffffff !important;
+}
+
+.custom-navlink {
+  padding: 0 20px !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+@media (max-width: 992px) {
+  .custom-navlink {
+    padding: 10px 0 !important;
+  }
+}
+
+.navbar-btn {
+  margin-top: 30px !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #ffd3af;
+  transition: 0.3s;
+}
+.navbar-btn:hover {
+  color: rgba(255, 211, 175, 0.5);
+}
+
+.offcanvas {
+  visibility: hidden;
+  background-color: #232536;
+}
+
+.btn-close {
+  color: grey;
+}
+.btn-close:focus {
+  box-shadow: 0 0 0 0.25rem rgba(59, 59, 59, 0.2509803922);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem rgba(59, 59, 59, 0.2509803922);
+}
+
+.navbar-toggler-icon {
+  background-image: url(../../images/header/nav-btn.svg) !important;
+  color: transparent !important;
+}
+
+.btn-close {
+  --bs-btn-close-bg: url(../../images/header/nav-close.svg);
+  transition: 0.3s;
+}
+
+footer .footer-bottom {
+  padding: 28px 0;
+  background: #ffe6d2;
+}
+footer .footer-bottom p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #000000;
+}

@@ -1,11 +1,11 @@
 @use "../global.scss";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .mainly {
+    margin-top: 100px;
   #breaking {
     .plugin {
       position: relative;
@@ -67,11 +67,16 @@
   }
   #picture {
     margin-top: 100px;
+    margin-bottom: 100px;
   }
   #transform {
     margin-top: 100px;
+    margin: 0 auto;
+    width: 60%;
+    
     h2 {
       font-family: "Poppins";
+      
       margin-bottom: 25px;
       font-weight: 600;
       font-size: 36px;
