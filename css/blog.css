@@ -102,7 +102,8 @@ section::after {
 .custom-droplink {
   transition: 0.3s;
 }
-.custom-droplink:hover, .custom-droplink:focus {
+.custom-droplink:hover,
+.custom-droplink:focus {
   color: #232536;
 }
 
