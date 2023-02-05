@@ -85,7 +85,7 @@ section::after {
 }
 
 nav {
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .navbar {
@@ -508,27 +508,74 @@ footer .footer-bottom p {
 }
 
 #process {
-  padding: 100px 0;
+  background-color: #f9f9ff;
+  padding: 50px 0;
 }
-#process .process .process-rows {
-  padding: 70px 0 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 48px 48px;
+#process .card {
+  border-radius: 0;
+  background-color: #f9f9ff;
 }
-@media (min-width: 576px) {
-  #process .process .process-rows {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
+.l-max {
+  max-width: 710px;
 }
-@media (min-width: 992px) {
-  #process .process .process-rows {
-    grid-template-columns: repeat(3, 1fr);
-  }
+
+.card-icon img {
+  box-sizing: content-box;
+  display: inline-block;
+  background-color: #ffe6d2;
+  border-radius: 16px;
+  padding: 12px;
+  max-width: 25px;
 }
-#process .process .process-rows__row {
-  padding: 30px;
-  border: 1px solid rgba(35, 37, 54, 0.17);
+
+.card-num-p {
+  margin: 0;
+}
+
+.card {
+  transition: ease-in-out 0.4s;
+}
+.card .card-h {
+  margin-bottom: 6px;
+}
+
+.apelsin,
+.light-aplesin,
+.blue {
+  height: 8px;
+  background-color: transparent;
+  transition: ease-in-out 0.4s;
+}
+
+.inner-card:hover .card {
+  background-color: rgba(253, 240, 182, 0.2) !important;
+}
+.inner-card:hover .apelsin {
+  background-color: #ffa155;
+}
+.inner-card:hover .light-aplesin {
+  background-color: #ffd3af;
+}
+.inner-card:hover .blue {
+  background-color: #444cfc;
+}
+
+.main-desc {
+  padding-bottom: 90px;
+}
+
+.sec-img img {
+  max-width: 516px;
+  width: 100%;
+}
+
+#developoment {
+  background-color: #ecf8f9;
+}
+
+#consulting {
+  background-color: #f9f9ff;
 }
 
 #customers {
