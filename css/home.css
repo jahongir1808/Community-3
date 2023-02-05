@@ -198,25 +198,6 @@ footer .footer-bottom p {
   color: #000000;
 }
 
-<<<<<<< HEAD
-.custom-btn {
-  padding: 20px 32px;
-  max-width: 219px;
-  white-space: nowrap;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 0.87);
-  background: #444cfc;
-  background-image: url(../../images/footer/shapes-small.svg);
-  background-repeat: no-repeat;
-  transition: 0.3s;
-}
-.custom-btn:hover {
-  background-color: rgba(68, 76, 252, 0.7);
-=======
 footer {
   margin-top: 100px;
 }
@@ -459,7 +440,25 @@ footer .india .img p {
   font-size: 16px;
   line-height: 24px;
   color: #232536;
->>>>>>> 34f10311fe4eb6b294e2fe63ac550a1f9df094ba
+}
+
+.custom-btn {
+  padding: 20px 32px;
+  max-width: 219px;
+  white-space: nowrap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #444cfc;
+  background-image: url(../../images/footer/shapes-small.svg);
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.custom-btn:hover {
+  background-color: rgba(68, 76, 252, 0.7);
 }
 
 #home {
