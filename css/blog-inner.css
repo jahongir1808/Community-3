@@ -59,10 +59,6 @@ textarea:focus {
     font-size: 16px !important;
   }
 }
-header {
-  background-color: #232536 !important;
-}
-
 .container-fluid::after,
 .container::after,
 aside::after,
@@ -82,10 +78,6 @@ section::after {
 
 .dropdown-toggle::before {
   display: none;
-}
-
-nav {
-  margin-bottom: 150px;
 }
 
 .navbar {
@@ -204,6 +196,9 @@ footer .footer-bottom p {
   font-size: 1rem;
   line-height: 24px;
   color: #000000;
+<<<<<<< HEAD
+}/*# sourceMappingURL=blog-inner.css.map */
+=======
 }
 
 * {
