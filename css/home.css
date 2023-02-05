@@ -206,6 +206,25 @@ footer .footer-bottom p {
   color: #000000;
 }
 
+.custom-btn {
+  padding: 20px 32px;
+  max-width: 219px;
+  white-space: nowrap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #444cfc;
+  background-image: url(../../images/footer/shapes-small.svg);
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.custom-btn:hover {
+  background-color: rgba(68, 76, 252, 0.7);
+}
+
 #home {
   padding: 0 0 32px;
 }
@@ -445,4 +464,178 @@ footer .footer-bottom p {
   font-size: 0.875rem;
   line-height: 20px;
   color: #5d5f6d;
+}
+
+#build {
+  padding: 100px 0;
+  background: #ffe6d2;
+}
+#build .build h3 {
+  margin: 12px 0 40px;
+  max-width: 777px;
+}
+#build .build .local-rows {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 32px 32px;
+}
+@media (min-width: 992px) {
+  #build .build .local-rows {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#build .build .local-rows__row {
+  padding: 48px;
+  background: #ffffff;
+}
+#build .build .local-rows__row h4 {
+  margin: 16px 0 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #000000;
+}
+#build .build .local-rows__row p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #5d5f6d;
+}
+
+#process {
+  padding: 100px 0;
+}
+#process .process .process-rows {
+  padding: 70px 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 48px 48px;
+}
+@media (min-width: 576px) {
+  #process .process .process-rows {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  #process .process .process-rows {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#process .process .process-rows__row {
+  padding: 30px;
+  border: 1px solid rgba(35, 37, 54, 0.17);
+}
+
+#customers {
+  padding: 100px 0;
+  background: #f9f9ff;
+}
+#customers .customers-left, #customers .customers-right {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  #customers .customers-left, #customers .customers-right {
+    width: 50%;
+  }
+}
+#customers .customers-left h2 {
+  max-width: 492px;
+}
+#customers .customers-left h4 {
+  padding: 16px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 28px;
+  color: #232536;
+}
+#customers .customers-left p {
+  max-width: 492px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+}
+#customers .customers-left__icons {
+  margin: 24px 0 14px;
+}
+#customers .customers-right .customers-content {
+  padding: 48px 48px 40px 48px;
+}
+#customers .customers-right .customers-content h2 {
+  margin-bottom: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #232536;
+  opacity: 0.87;
+}
+#customers .customers-right .customers-content .customers-icons__content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #232536;
+  opacity: 0.87;
+}
+#customers .customers-right .customers-content .customers-icons__content h2 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #232536;
+  opacity: 0.6;
+}
+
+#read {
+  padding: 100px 0;
+  background: #ecf8f9;
+}
+#read .read-rows {
+  padding-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 32px 32px;
+}
+@media (min-width: 1300px) {
+  #read .read-rows {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#read .read-rows__row {
+  background: #ffffff;
+}
+#read .read-rows__row .read-row__content {
+  padding: 32px;
+}
+#read .read-rows__row .read-row__content h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #232536;
+  opacity: 0.6;
+}
+#read .read-rows__row .read-row__content h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #232536;
 }
