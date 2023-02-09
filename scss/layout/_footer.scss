@@ -15,6 +15,40 @@ footer {
   }
 }
 
+.make {
+  width: 50%;
+}
+.special-wrap {
+  gap: 30px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+  }
+}
+.special {
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+    .wrap-list,
+    .wrap-list_2,
+    .wrap-list_3 {
+      width: 50%;
+    }
+    .make {
+      width: 100%;
+    }
+    .special-wrap {
+      width: 100%;
+      margin-bottom: 100px;
+    }
+  }
+}
+.wrap-list,
+.wrap-list_2,
+.wrap-list_3 {
+  width: 33.33%;
+}
+
 footer {
   margin-top: 100px;
   .paresh {
@@ -63,9 +97,13 @@ footer {
     }
     .pixeto {
       padding-top: 180px;
-      width: 100%;
       @media (min-width: 992px) {
         width: 50%;
+      }
+      form {
+        display: flex;
+        justify-content: center;
+        width: 100%;
       }
       input {
         padding: 12px 20px;
@@ -75,8 +113,8 @@ footer {
   }
   .special {
     display: flex;
-    gap: 100px;
     position: relative;
+    justify-content: space-between;
     .special-corner {
       position: absolute;
       top: 0;
@@ -119,7 +157,6 @@ footer {
       display: flex;
       margin-top: 66px;
       .wrap-list {
-        padding-right: 60px;
         .list {
           font-family: "Poppins";
           padding-bottom: 12px;
@@ -133,7 +170,6 @@ footer {
         }
       }
       .wrap-list_2 {
-        padding-right: 80px;
         .list {
           font-family: "Poppins";
           padding-bottom: 12px;
@@ -146,7 +182,7 @@ footer {
           }
         }
         .inside {
-          display: flex;
+          // display: flex;
           gap: 5px;
           padding-bottom: 12px;
           font-family: "Poppins";
@@ -160,7 +196,7 @@ footer {
           }
         }
         .inside_n {
-          display: flex;
+          // display: flex;
           gap: 5px;
           font-family: "Poppins";
           padding-bottom: 12px;
@@ -185,7 +221,6 @@ footer {
         }
       }
       .wrap-list_3 {
-        padding-right: 120px;
         .list {
           font-family: "Poppins";
           padding-bottom: 12px;
@@ -198,7 +233,7 @@ footer {
           }
         }
         .inside {
-          display: flex;
+          // display: flex;
           gap: 5px;
           padding-bottom: 12px;
           font-family: "Poppins";

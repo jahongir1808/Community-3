@@ -452,11 +452,14 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 32px 32px;
-      @media (min-width: 1300px) {
+      @media (min-width: 1200px) {
         grid-template-columns: repeat(2, 1fr);
       }
       &__row {
         background: #ffffff;
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
         .read-row__content {
           padding: 32px;
           h6 {
@@ -469,6 +472,7 @@
             opacity: 0.6;
           }
           h5 {
+            max-width: 264px;
             font-family: "Poppins";
             font-style: normal;
             font-weight: 600;
