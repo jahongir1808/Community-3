@@ -206,6 +206,7 @@ footer .footer-bottom p {
   font-size: 1rem;
   line-height: 24px;
   color: #000000;
+<<<<<<< HEAD
 }
 
 .make {
@@ -245,6 +246,8 @@ footer .footer-bottom p {
 .wrap-list_2,
 .wrap-list_3 {
   width: 33.33%;
+=======
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 }
 
 footer {

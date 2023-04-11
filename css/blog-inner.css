@@ -208,6 +208,7 @@ footer .footer-bottom p {
   color: #000000;
 }
 
+<<<<<<< HEAD
 .make {
   width: 50%;
 }
@@ -247,6 +248,8 @@ footer .footer-bottom p {
   width: 33.33%;
 }
 
+=======
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 footer {
   margin-top: 100px;
 }
@@ -295,25 +298,37 @@ footer .paresh .subscribe .subscribe-letter {
 }
 footer .paresh .pixeto {
   padding-top: 180px;
+<<<<<<< HEAD
+=======
+  width: 100%;
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 }
 @media (min-width: 992px) {
   footer .paresh .pixeto {
     width: 50%;
   }
 }
+<<<<<<< HEAD
 footer .paresh .pixeto form {
   display: flex;
   justify-content: center;
   width: 100%;
 }
+=======
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 footer .paresh .pixeto input {
   padding: 12px 20px;
   width: 60%;
 }
 footer .special {
   display: flex;
+<<<<<<< HEAD
   position: relative;
   justify-content: space-between;
+=======
+  gap: 100px;
+  position: relative;
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 }
 footer .special .special-corner {
   position: absolute;
@@ -357,6 +372,12 @@ footer .special .special-wrap {
   display: flex;
   margin-top: 66px;
 }
+<<<<<<< HEAD
+=======
+footer .special .special-wrap .wrap-list {
+  padding-right: 60px;
+}
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 footer .special .special-wrap .wrap-list .list {
   font-family: "Poppins";
   padding-bottom: 12px;
@@ -368,6 +389,12 @@ footer .special .special-wrap .wrap-list .list {
 footer .special .special-wrap .wrap-list .list a {
   color: #232536;
 }
+<<<<<<< HEAD
+=======
+footer .special .special-wrap .wrap-list_2 {
+  padding-right: 80px;
+}
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 footer .special .special-wrap .wrap-list_2 .list {
   font-family: "Poppins";
   padding-bottom: 12px;
@@ -380,6 +407,10 @@ footer .special .special-wrap .wrap-list_2 .list a {
   color: #232536;
 }
 footer .special .special-wrap .wrap-list_2 .inside {
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
   gap: 5px;
   padding-bottom: 12px;
   font-family: "Poppins";
@@ -393,6 +424,10 @@ footer .special .special-wrap .wrap-list_2 .inside a {
   color: #232536;
 }
 footer .special .special-wrap .wrap-list_2 .inside_n {
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
   gap: 5px;
   font-family: "Poppins";
   padding-bottom: 12px;
@@ -415,6 +450,12 @@ footer .special .special-wrap .wrap-list_2 li {
 footer .special .special-wrap .wrap-list_2 li a {
   color: #232536;
 }
+<<<<<<< HEAD
+=======
+footer .special .special-wrap .wrap-list_3 {
+  padding-right: 120px;
+}
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
 footer .special .special-wrap .wrap-list_3 .list {
   font-family: "Poppins";
   padding-bottom: 12px;
@@ -427,6 +468,10 @@ footer .special .special-wrap .wrap-list_3 .list a {
   color: #232536;
 }
 footer .special .special-wrap .wrap-list_3 .inside {
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> e809970c925ab7184335c46b6a9c9d8961c18bb8
   gap: 5px;
   padding-bottom: 12px;
   font-family: "Poppins";
